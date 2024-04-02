@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Noto Sans' sans-serif;
+}
+.main-login{
+    width: 100vw;
+    height: 100vw;
+    background: #4d08ee;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+}
+.left-login{
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.left-login {
+    color: #000000;
+    font-size: 1vw;
+     box-shadow: 0px 10px 40px #000000;
+}
+.left-login-img{
+    width: 25vw;
+}
+.right-login{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.card-login{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #fffeff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #000000;
+}
+.card-login h1{
+    color: #060807;
+    font-weight: 90;
+    margin: 0;
+}

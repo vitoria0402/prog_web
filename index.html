@@ -3,30 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome do Aluno</title>
-    <link rel="stylesheet" href="prova.css">
+    <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_query.css">
 </head>
 <body>
-    <div class="main-login">
-        <div class="left-login">
-            <h1>Login<br>Seja bem-vindo(a) novamente.Faça login para acessar usa conta e poder fazer as configurações no seu ambiente</h1>
+    <h1>Vitória</h1>
+    <section class="login">
+        <div class="imagem1">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FInstituto_Federal_do_Paran%25C3%25A1&psig=AOvVaw3ikGnGkbovUj0MlL-l9Zua&ust=1712851529930000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCtoMWDuIUDFQAAAAAdAAAAABAE" alt="">
         </div>
-        <div class="right-login">
-            <div class="card-login">
-                <h1>Login</h1>
-                <div class="textfield">
-                    <label for="seu e-mail">E-mail</label>
-                    <input type="text" name="e-mail" placeholder="seu e-mail">
-                </div>
-                <div class="textfield"> 
-                    <label for="sua senha">Senha</label>
-                    <input type="password" name="senha" placeholder="sua senha">
-                </div>
-                <button class="btn-login">Entrar</button>
-                <button class="btn-login">Esqueci a senha</button>
-                <div class="imagem">
-                    <img src="https://ifpr.edu.br/wp-content/uploads/2023/08/marca-ifpr.jpg" alt="">
-                </div>
-            </div>
+        <div class="campo">
+            <i class="material-icons">vpn_key</i>
+            <input type="" name="nome" id="inome" placeholder="sua nome"  required minlength="13" maxlength="30">
+            <label for="inome">Nome</label>
+        </div>
+        <div class="formulario">
+    <form action="login.php" method="post" autocomplete="on">
+        <div class="campo">
+            <i class="material-icons">person</i>
+            <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+            <label for="ilogin">Login</label>
+        </div>
+        <div class="campo">
+            <i class="material-icons">vpn_key</i>
+            <input type="" name="fone" id="ifone" placeholder="sua telefone" autocomplete="" required minlength="9" maxlength="9">
+            <label for="ifone">Fone</label>
+        </div>
+        <div class="imagem2">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.grancursosonline.com.br%2Fconcurso%2Fifpr-instituto-federal-do-parana%2Fcupom%2FDODF30&psig=AOvVaw3ikGnGkbovUj0MlL-l9Zua&ust=1712851529930000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCtoMWDuIUDFQAAAAAdAAAAABAd" alt="">
+        </div>
+    </form>
+    <div class="icons">
+        <div class="facebook">
+            <i data-feather="facebook"></i>
+        </div>
+        <div class="twitter">
+            <i data-feather="twitter"></i>
+        </div>
+        <div class="instagram">
+            <i data-feather="instagram"></i>
+        </div>
+    </div>
+</div>
+</section>
+</main>
+<script>
+    feather.replace();
+</script>
 </body>
 </html>

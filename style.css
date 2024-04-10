@@ -1,89 +1,60 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0px;
-    margin: 0px;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Noto Sans' sans-serif;
+}
+.textfield {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px; 
+}
+
+.textfield input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #FFD1E3;
+    color: #ccd8d8de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #000000;
+    outline: none;
     box-sizing: border-box;
 }
-
-body, html {
-    background-color:#FFF7FC;
-    height: 100vh;
-    width: 100vw;
-}
-section.login > div.formulario {
-    display: block;
-    padding: 10px;
-}
-
-div.formulario > h1 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-div.formulario > p {
-    font-size: 0.8em;
-}
-
-form > div.campo {
-    background-color: #FFD1E3;
-    border: 2px solid #FFD1E3;
-    display: block;
+.btn-login {
     width: 100%;
-    height: 40px;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
     border-radius: 8px;
-    margin: 5px 0px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #BC7FCD;
+    background: ##FB9AD1;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #FFCDEA;
 }
-
-div.campo > label {
-    display: none;
+.facebook{
+    color:#0c1ae0;
 }
-
-div.campo > i {
-    color: white;
-    background-color: black;
-    font-size: 1.9em;
-    width: 40px;
-    padding: 5px;
+.twitter{
+    color: #000000;
 }
-
-div.campo > input {
-    background-color: #FB9AD1;
-    font-size: 1em;
-    width: calc(100% - 45px);
-    height: 100%;
-    border: 0px;
-    border-radius: 8px;
-    padding: 4px;
-    transform: translateY(-10px);
+.instagram{
+    color: #ff1188;
 }
-
-.icons {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
-    margin: 10px 0px;
+.imagem1 img{
+    width: 80px;
+   
 }
-form > a.botao {
-    display: block;
-    text-align: center;
-    font-size: 1em;
-    width: 100%;
-    height: 40px;
-    padding-top: 5px;
-    margin-top: 5px;
-    background-color: white;
-    color:#FEC7B4;
-    border: 1px solid #FC819E;
-    border-radius: 7px;
-    text-decoration: none;
-}
-.facebook {
-    color: blue;
-}
-.twitter {
-    color: rgb(15, 15, 15);
-}
-.instagram {
-    color: rgba(233, 12, 126, 0.818);
-}
+   .imagem2 img{
+       width: 80px;
+      
+   }

@@ -1,58 +1,89 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-body{
-    margin: 0;
-    font-family: 'Noto Sans' sans-serif;
-}
-.main-login{
-    width: 100vw;
-    height: 100vw;
-    background: #4d08ee;
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
 
+body, html {
+    background-color:#FFF7FC;
+    height: 100vh;
+    width: 100vw;
 }
-.left-login{
-    width: 50vw;
-    height: 50vw;
+section.login > div.formulario {
+    display: block;
+    padding: 10px;
+}
+
+div.formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.formulario > p {
+    font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color: #FFD1E3;
+    border: 2px solid #FFD1E3;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > i {
+    color: white;
+    background-color: black;
+    font-size: 1.9em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #FB9AD1;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-10px);
+}
+
+.icons {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 10px 0px;
 }
-.left-login {
-    color: #000000;
-    font-size: 1vw;
-     box-shadow: 0px 10px 40px #000000;
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color:#FEC7B4;
+    border: 1px solid #FC819E;
+    border-radius: 7px;
+    text-decoration: none;
 }
-.left-login-img{
-    width: 25vw;
+.facebook {
+    color: blue;
 }
-.right-login{
-    width: 50vw;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    
+.twitter {
+    color: rgb(15, 15, 15);
 }
-.card-login{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px 35px;
-    background: #fffeff;
-    border-radius: 20px;
-    box-shadow: 0px 10px 40px #000000;
-}
-.card-login h1{
-    color: #060807;
-    font-weight: 90;
-    margin: 0;
+.instagram {
+    color: rgba(233, 12, 126, 0.818);
 }

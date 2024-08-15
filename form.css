@@ -1,6 +1,17 @@
-.div{
-    background-color: black;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
-.h1{
+header{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+h1{
     background-color: white;
 }

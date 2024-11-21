@@ -1,0 +1,38 @@
+body {
+    background-image: linear-gradient(45deg, #D4F6FF, #C6E7FF);
+    height: 100vh;
+    color: #133E87;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #7AB2D3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para as prioridades */
+.prioridade-alta {
+    color: red;
+    font-weight: bold;
+}
+
+.prioridade-media {
+    color: orange;
+}
+
+.prioridade-baixa {
+    color: green;
+}
+
+/* Tarefas concluídas */
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}

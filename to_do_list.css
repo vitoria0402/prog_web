@@ -1,7 +1,7 @@
 body {
-    background-image: linear-gradient(45deg, #D4F6FF, #C6E7FF);
+    background-image: linear-gradient(45deg, #D4F6FF, #F6FCDF);
     height: 100vh;
-    color: #133E87;
+    color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -13,26 +13,26 @@ img {
 }
 
 button {
-    background-color: #7AB2D3;
+    background-color: #62825D;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Estilos para as prioridades */
 .prioridade-alta {
-    color: red;
+    color: #FF2929;
     font-weight: bold;
 }
 
 .prioridade-media {
-    color: orange;
+    color: #FFE31A;
 }
 
 .prioridade-baixa {
-    color: green;
+    color: #EB5B00;
 }
 
 /* Tarefas concluídas */
 .concluida {
     text-decoration: line-through;
-    color: gray;
+    color: rgb(0, 0, 0);
 }
